@@ -20,10 +20,14 @@ namespace Distributed.Caching.Controllers
         {
             await distributedCache.SetStringAsync("name", name, options: new()
             {
-                AbsoluteExpiration = DateTime.Now.AddSeconds(30), 
+                AbsoluteExpiration = DateTime.Now.AddSeconds(30),
                 SlidingExpiration = TimeSpan.FromSeconds(10)
             });
-            await distributedCache.SetAsync("surname", Encoding.UTF8.GetBytes(surname));
+            await distributedCache.SetAsync("surname", Encoding.UTF8.GetBytes(surname), options: new()
+            {
+                AbsoluteExpiration = DateTime.Now.AddSeconds(30),
+                SlidingExpiration = TimeSpan.FromSeconds(10)
+            });
             return Ok();
         }
 
