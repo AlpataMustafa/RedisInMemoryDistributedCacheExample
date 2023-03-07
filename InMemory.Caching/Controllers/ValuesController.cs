@@ -15,14 +15,17 @@ namespace InMemory.Caching.Controllers
             this.memoryCache = memoryCache;
         }
         [HttpGet]
-        public void Set()
+        public void Set(string name)
         {
-            memoryCache.Set("name", "emre");
+            memoryCache.Set("name",name);
         }
         [HttpGet]
         public string Get()
         {
-            return memoryCache.Get<string>("name");
+            if (memoryCache.TryGetValue<string>("name",out string name)==true)
+            {
+                return name.ToLower();
+            }
         }
     }
 }
