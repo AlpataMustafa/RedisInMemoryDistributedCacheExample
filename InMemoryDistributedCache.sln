@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributed.Caching", "Distributed.Caching\Distributed.Caching.csproj", "{BAA530D6-FDBF-43C3-9A8D-3A7A47D813EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishConsumeExampleSubscriber", "PublishConsumeExample\PublishConsumeExampleSubscriber.csproj", "{9679D0A2-8C95-4B2F-AA6B-B23346FDF627}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishConsumeExamplePublisher", "PublishConsumeExample\PublishConsumeExamplePublisher.csproj", "{9679D0A2-8C95-4B2F-AA6B-B23346FDF627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
