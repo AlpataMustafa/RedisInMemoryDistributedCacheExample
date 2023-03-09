@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributed.Caching", "Dist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishConsumeExamplePublisher", "PublishConsumeExample\PublishConsumeExamplePublisher.csproj", "{9679D0A2-8C95-4B2F-AA6B-B23346FDF627}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishConsumeExampleSubscriber", "PublishConsumeExampleSubscriber\PublishConsumeExampleSubscriber.csproj", "{C11CD9AC-4FC4-4B8D-9041-E7D81F1AA945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9679D0A2-8C95-4B2F-AA6B-B23346FDF627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9679D0A2-8C95-4B2F-AA6B-B23346FDF627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9679D0A2-8C95-4B2F-AA6B-B23346FDF627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11CD9AC-4FC4-4B8D-9041-E7D81F1AA945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11CD9AC-4FC4-4B8D-9041-E7D81F1AA945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11CD9AC-4FC4-4B8D-9041-E7D81F1AA945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11CD9AC-4FC4-4B8D-9041-E7D81F1AA945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
